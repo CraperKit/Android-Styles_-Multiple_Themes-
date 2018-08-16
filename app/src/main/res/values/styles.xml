@@ -1,0 +1,25 @@
+<resources>
+
+    //AppCompat -> Backwards Compatible
+    //Material Design -> Not Backwards Compatible
+    //                -> Introduced in API level 21 ( Android Lollipop )
+
+    // Create A New theme which supports Material Design
+    // 1. Click Tools -> Theme editor.
+    // 2. To view all the themes. Select Themes (DropDown)-> Click Show all themes.
+    // 3. To Create a new theme. Select Themes(DropDown) -> Create New Theme.
+    //    3.1. Enter the New Theme name.
+    //    3.2. Select the parent theme name. Your new theme will inherit the properties of parent theme.
+    //    3.3. After creating a new theme styles folder under the values folder will be updated with
+    //         two styles.xml(styles.xml-> AppCompat Themes, styles.xml (v21) -> Material Design Themes).
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
